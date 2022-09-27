@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULADORA IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULADORA DEL INDICE DE MASA CORPORAL</h1>
+        <div class="calculardoraIMC">
+            <div class="container-datos">
+                <label class="label-dato" for="nombre">Ingrese su nombre:</label>
+                <input class="input-dato" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+    
+                <label class="label-dato" for="peso">Ingrese su peso:</label>
+                <input class="input-dato" type="number" name="peso" id="peso" placeholder="Ingrese su peso en kilos">
+                
+                <label class="label-dato" for="altura">Ingrese su altura:</label>
+                <input class="input-dato" type="number" name="altura" id="altura" placeholder="Ingrese su altura metros">
+                <div class="button">
+                    <input class="input-button" id="button" type="submit" value="CALCULAR">
+                </div>
+                <div class="container-resultado">
+                    <h3>Resultado: </h3>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

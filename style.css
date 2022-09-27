@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 30px 0;
+    color: #f0f8ff;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(22, 21, 21);
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+.container-datos{
+    display: flex;
+    flex-direction: column;
+    background-color:#450f79;
+    color: #f0f8ff;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.label-dato{
+    font-weight: bold;
+}
+
+.input-dato,
+.label-dato{
+    font-size: 1.2rem;
+}
+
+.input-dato{
+    margin: 6px 0;
+    padding: 12px;
+    outline: none;
+    border-radius: 12px;
+    border: none;
+}
+
+.button{
+    align-self: center;
+}
+
+.input-button{
+    margin: 13px 0;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    color: #f0f8ff;
+    background-color: #00a524;
+    transition: .7s background-color ease;
+}
+
+.input-button:hover{
+    background-color: #006917;
+
+}
+
+.container-resultado{
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.resutlado{
+    font-size: 3rem;
+}
